@@ -7,6 +7,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    box-sizing: border-box;
 }
 
 .topbarLeft {
@@ -18,6 +19,15 @@
         margin-right: 6px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .topbarContainer {
+        width: 124vw;
+    }
+
+
+}
+
 
 .logo {
     font-size: 24px;
