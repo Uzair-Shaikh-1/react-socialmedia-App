@@ -6,6 +6,12 @@
     top: 50px;
 }
 
+@media screen and (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .sidebar {
         display: none;
